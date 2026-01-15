@@ -73,6 +73,6 @@ int main(){
     else{
         printf("not eligible to vote");
 
-
+    printf("now done");
     return 0;
     }} 
