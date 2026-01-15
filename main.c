@@ -1,4 +1,4 @@
-#include <stdio.h>
+
 /*int main()
 {
     int a,i ;
@@ -61,8 +61,18 @@ int main()
 
 #include <stdio.h>
 int main(){
-    int a=5,b=6;
-    printf("The sum of two numbers is: %d",a+b);
-    return 0;
-}
+    int a;
+    printf("enter a number:- %d");
+    scanf("%d",&a);
+    if (a>=18){
+        printf("You are eligible for voting");
+    }
+    else if(a>=30){
+        printf("you are equal or above 30");
+    }
+    else{
+        printf("not eligible to vote");
 
+
+    return 0;
+    }} 
